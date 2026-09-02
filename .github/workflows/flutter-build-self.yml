@@ -1,6 +1,7 @@
-name: Build the flutter version of the RustDesk
+name: Self Build the flutter version of the RustDesk
 
 on:
+  push:
   workflow_call:
     inputs:
       upload-artifact:
